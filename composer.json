@@ -1,0 +1,21 @@
+{
+    "name": "aigletter/learning",
+    "description": "Test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aigletter",
+            "email": "aigletter@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mikepros/shapes": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "learning\\": "src"
+        }
+    }
+}
